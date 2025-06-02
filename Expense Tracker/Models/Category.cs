@@ -18,3 +18,4 @@ namespace Expense_Tracker.Models
         public string Type { get; set; } = "Expense";
     }
 }
+ 
