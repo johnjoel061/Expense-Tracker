@@ -19,7 +19,7 @@ namespace Expense_Tracker.Controllers
         }
 
         // GET: Category
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index() 
         {
             return View(await _context.Categories.ToListAsync());
         }
